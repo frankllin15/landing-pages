@@ -2,7 +2,7 @@
 
 ## Deploy
 
-(https://frankllin15.github.io/landing-pages/elearning-platform)[Link]
+[Link](https://frankllin15.github.io/landing-pages/elearning-platform)
 
 ## Reference
 

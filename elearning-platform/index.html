@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Iceland&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "white-transparent": "rgba(249, 251, 255, 0.9)",
+            },
+          },
+          fontFamily: {
+            display: ["Iceland", "sans-serif"],
+            body: ["Montserrat", "sans-serif"],
+          },
+          backgroundImage: {
+            person: "url('/assets/bg-person.png')",
+            "radial-gradient":
+              "'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))",
+          },
+        },
+      };
+    </script>
+    <title>E-learning</title>
+  </head>
+  <body class="font-body max-w-screen px-[4.8rem] bg-[#F9FBFF]">
+    <header class="h-[84px] pb-2 w-full flex items-end justify-between">
+      <a
+        href=""
+        class="font-display font-extrabold text-[2.625rem] text-nowrap"
+      >
+        Degign Studio
+      </a>
+
+      <nav>
+        <ul class="flex flex-row w-full gap-12 text-xl items-center">
+          <li>
+            <a href="index.html">Services</a>
+          </li>
+          <li>
+            <a href="index.html">Products</a>
+          </li>
+          <li>
+            <a href="index.html">Resources</a>
+          </li>
+          <li>
+            <a href="index.html">Contatct Us</a>
+          </li>
+          <li>
+            <button
+              class="h-[56px] w-[142px] bg-[#FED916] text-black font-semibold"
+            >
+              Let's Talk
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="grid grid-cols-2 items-start min-h-[660px]">
+      <section class="pt-[70px] flex flex-col gap-4">
+        <h1 class="text-[4.5rem] font-extrabold leading-[6rem]">
+          Creativity Masterclass
+        </h1>
+        <h2 class="text-[1.5rem]">30 Days Money Back Guarantee</h2>
+        <p class="text-[1.225rem] text-[#727272]">
+          Enroll yourself now. Just drop your email-id here and our team will
+          contact you with class details.
+        </p>
+        <form class="w-full h-[4.2rem] flex shadow-md" action="">
+          <input
+            class="flex-1 px-6 placeholder-[#B8B8B8]"
+            type="email"
+            placeholder="Your E-mail here"
+          />
+          <button class="bg-[#9AD27D] w-[190px] text-3xl text-white">
+            Submit
+          </button>
+        </form>
+      </section>
+      <section
+        class="relative bg-person bg-contain bg-no-repeat bg-right-bottom w-full h-full flex items-end justify-center"
+      >
+        <div
+          class="h-[120px] absolute bottom-0 w-full bg-blur flex items-center justify-center"
+        ></div>
+        <p
+          class="h-[100px] text-center w-1/2 text-white text-2xl z-10 leading-1"
+        >
+          Top Rated Course From
+          <span class="text-[#FED916]"> 5,000+</span> Students
+        </p>
+      </section>
+    </main>
+    <footer
+      class="flex flex-col w-full gap-8 text-center justify-center items-center"
+    >
+      <p class="text-[#B8B8B8] text-2xl">
+        Truested by over <span class="text-[#9AD27D]">10,000</span> Companies
+      </p>
+      <ul
+        class="flex gap-8 bg-[#FED916] h-[70px] px-20 items-center rounded-t-3xl"
+      >
+        <li>
+          <i>
+            <img
+              src="/assets/facebook-logo.svg"
+              alt="Facebook logo"
+              srcset=""
+            />
+          </i>
+        </li>
+
+        <li>
+          <i>
+            <img src="/assets/google-logo.svg" alt="Facebook logo" srcset="" />
+          </i>
+        </li>
+        <li>
+          <i>
+            <img src="/assets/amazon-logo.svg" alt="Facebook logo" srcset="" />
+          </i>
+        </li>
+        <li>
+          <i>
+            <img
+              src="/assets/microsoft-logo.svg"
+              alt="Facebook logo"
+              srcset=""
+            />
+          </i>
+        </li>
+        <li>
+          <i>
+            <img
+              src="/assets/linkedin-logo.svg"
+              alt="Facebook logo"
+              srcset=""
+            />
+          </i>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

@@ -1,4 +1,4 @@
-#Landing pages
+# Landing pages
 Paginas desenvolvidas a partir de designes prontos, preferencialmente do Figma
 ##Como de ser estruturado
 Cada página deve ter o seu readme file com as seguites informações
